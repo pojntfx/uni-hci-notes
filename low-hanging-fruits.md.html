@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Felicitas Pojtinger" />
+  <title>Uni HCI Low Hanging Fruits</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Uni HCI Low Hanging Fruits</h1>
+<p class="author">Felicitas Pojtinger</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#uni-hci-low-hanging-fruits">Uni HCI Low Hanging Fruits</a></li>
+</ul>
+</nav>
+<h1 id="uni-hci-low-hanging-fruits">Uni HCI Low Hanging Fruits</h1>
+<ul>
+<li>Sprache im <code>lang</code>-Attribut
+<ul>
+<li>Am <code>&lt;html&gt;</code>-Tag (3.1.1a Hauptsprache angeben)</li>
+<li>Bei Wörtern aus Fremdsprachen (3.1.2a Anderssprachige Wörter)</li>
+</ul></li>
+<li><code>&lt;title&gt;</code>-Tag (2.4.2 Sinnvolle Dokumenttitel)
+<ul>
+<li>Repräsentiert?</li>
+<li>Markenname dabei?</li>
+</ul></li>
+<li>Verzicht auf Schriftgrafiken (Logos ausgenommen; 1.4.5a)</li>
+<li>Fehlende <code>alt</code>-Attribute
+<ul>
+<li>Für Grafiken und Objekte (1.1.1b)</li>
+<li>Für Layoutgrafiken sollten leere <code>alt</code>-Attribute verwendet werden (1.1.1c)</li>
+<li>Für Bedienelemente (1.1.1a)</li>
+</ul></li>
+<li>Animationen nicht abschaltbar (2.2.2a Bewegte Inhalte abschaltbar)</li>
+<li>Kontrast kleiner 3:1 (1.4.3a Kontraste von Texten ausreichenen)</li>
+<li>Falsche Hierarchie der <code>&lt;h*&gt;</code>-Tags (HTML-Strukturelemente für Überschriften)</li>
+<li>Verwendung von <code>&lt;ul&gt;</code>- und <code>&lt;li&gt;</code>-Tags in Menüs (1.3.1b HTML-Strukturelemente für Listen)</li>
+<li><code>&lt;a&gt;</code>-Tags, welche zu einem Paragraph gehören, sind außerhalb des passenden Paragraphs zu finden</li>
+<li><code>&lt;a&gt;</code>-Tags nicht spezifisch genug (2.4.4a Aussagekräftige Linktexte)</li>
+<li>Keine Verwendung von Landmarks (<code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code> etc.)</li>
+<li>Tastaturbedienbarkeit</li>
+<li><code>&lt;label&gt;</code>-Tags oder <code>aria-label</code>-Attribute fehlen bei <code>&lt;input&gt;</code>-Tags</li>
+<li>Inhalte brechen nicht bei 320px um (1.4.10a, Inhalte brechen um)</li>
+<li>Syntaxfehler sind im HTML-Dokument vorhanden (Check via HTML Validator) (4.1.1a Korrekte Syntax)</li>
+<li>Videos nicht barrierefrei eingebunden
+<ul>
+<li>Audiodeskription</li>
+<li>Untertitel</li>
+</ul></li>
+<li>Auf 200% vergrößert</li>
+<li>Ton abschaltbar</li>
+<li>Alternative Zugangswege (2.4.5a)</li>
+<li>Inhalte gegliedert (em &gt; i) (1.3.1d)</li>
+<li>1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar: Links nicht hervorgehoben</li>
+</ul>
+</body>
+</html>

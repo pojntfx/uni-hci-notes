@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Felicitas Pojtinger" />
+  <title>Uni HCI Notes</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Uni HCI Notes</h1>
+<p class="author">Felicitas Pojtinger</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#uni-hci-notes">Uni HCI Notes</a>
+<ul>
+<li><a href="#definition-usability">Definition Usability</a></li>
+<li><a href="#definition-user-experience">Definition User Experience</a></li>
+<li><a href="#definition-geste">Definition Geste</a></li>
+<li><a href="#definition-accessibility">Definition Accessibility</a></li>
+<li><a href="#definition-universal-design">Definition Universal Design</a></li>
+<li><a href="#definition-behinderung">Definition Behinderung</a></li>
+<li><a href="#medientypen">Medientypen</a></li>
+<li><a href="#folgen-schlechter-usability">Folgen schlechter Usability</a></li>
+<li><a href="#regulationsebenen-nach-winfried-hacker">Regulationsebenen nach Winfried Hacker</a></li>
+<li><a href="#handlungsschritte-nach-d.-norman">7 Handlungsschritte nach D. Norman</a></li>
+<li><a href="#goms-modell">GOMS-Modell</a></li>
+<li><a href="#grundprinzipien-des-barrierefreien-designs">4 Grundprinzipien des Barrierefreien Designs</a></li>
+<li><a href="#dialogprinzipien">7 Dialogprinzipien</a></li>
+<li><a href="#methoden-um-usability-zu-maximieren">Methoden, um Usability zu maximieren</a></li>
+<li><a href="#typen-von-touchscreens">Typen von Touchscreens</a></li>
+<li><a href="#ziele-der-software-ergonomie">Ziele der Software-Ergonomie</a></li>
+<li><a href="#grundlagen-wissenschaften-der-software-ergonomie">Grundlagen-Wissenschaften der Software-Ergonomie</a></li>
+<li><a href="#anforderungen-des-anwenders">Anforderungen des Anwenders</a></li>
+<li><a href="#grundlagenwissschenschaften-für-usability">Grundlagenwissschenschaften für Usability</a></li>
+<li><a href="#richtlinien-zur-barrierefreiheit">Richtlinien zur Barrierefreiheit</a></li>
+<li><a href="#act-modell-adaptive-control-of-thought">ACT-Modell (Adaptive Control of Thought)</a></li>
+<li><a href="#wimp">WIMP</a></li>
+<li><a href="#codierungsformen">Codierungsformen</a></li>
+<li><a href="#möglichkeiten-3d-informationen-darzustellen">Möglichkeiten, 3D-Informationen darzustellen</a></li>
+<li><a href="#mittel-der-realitätserweiterung">Mittel der Realitätserweiterung</a></li>
+<li><a href="#interaktionssystemtypen">Interaktionssystemtypen</a></li>
+<li><a href="#augen-subsysteme">Augen-Subsysteme</a></li>
+<li><a href="#fitts-law">Fitt’s Law</a></li>
+<li><a href="#hicks-law">Hick’s Law</a></li>
+<li><a href="#gestentypen">Gestentypen</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="uni-hci-notes">Uni HCI Notes</h1>
+<blockquote>
+<p>These study materials are heavily based on <a href="https://www.hdm-stuttgart.de/vorlesung_detail?vorlid=5212274">professor Zimmermann’s “Human-Computer Interaction” lecture at HdM Stuttgart</a> and prior work of fellow students.</p>
+</blockquote>
+<h2 id="definition-usability">Definition Usability</h2>
+<p>“Extend to which a system, product or service can be used by <strong>specified users</strong> to achieve <strong>specified goals</strong> with <em>effectiveness, efficiency and satisfaction</em> in a <strong>specified context of use</strong>”</p>
+<h2 id="definition-user-experience">Definition User Experience</h2>
+<p>“Person’s <strong>perceptions and responses</strong> resulting from the user and/or anticipated use of a product, system or service” (auf den ganzen Lebenszyklus bezogen)</p>
+<h2 id="definition-geste">Definition Geste</h2>
+<p>“<strong>Movement or posture</strong> of the <strong>whole body or parts</strong> of the body”</p>
+<h2 id="definition-accessibility">Definition Accessibility</h2>
+<p>“Extent to which products, systems, services, environments and facilities can be used by people from a population with the <strong>widest range of user needs, characteristics and capabilities</strong> to achieve <strong>identified goals</strong> in <strong>identified contexts of use</strong>”</p>
+<h2 id="definition-universal-design">Definition Universal Design</h2>
+<p>“Universal design is the design of different products and environments to be usable by <strong>all people</strong>, to the <strong>greatest extent</strong> possible <strong>without</strong> the need for <strong>adaption</strong> or <strong>specialized design</strong>”</p>
+<h2 id="definition-behinderung">Definition Behinderung</h2>
+<p>Produkt aus …</p>
+<ul>
+<li>Körperlichen Behinderungen</li>
+<li>Tätigkeit</li>
+<li>Sozialem Umfeld</li>
+<li>Umgebung</li>
+</ul>
+<h2 id="medientypen">Medientypen</h2>
+<ul>
+<li>Dynamische Medien: Ändern sich mit der Zeit</li>
+<li>Statische Medien: Ändern sich nicht mit der Zeit</li>
+<li>Multimedia: Kombination aus dynamischen &amp; statischen Medien, steuerbar</li>
+</ul>
+<h2 id="folgen-schlechter-usability">Folgen schlechter Usability</h2>
+<ul>
+<li>Frustration &amp; Unzufriendenheit</li>
+<li>Belastung</li>
+<li>Umsatz- und Imageverlust</li>
+</ul>
+<h2 id="regulationsebenen-nach-winfried-hacker">Regulationsebenen nach Winfried Hacker</h2>
+<ul>
+<li>Intellektuelle Regulationsebene (Formular ausfüllen)</li>
+<li>Ebene der flexiblen Handlungsmuster (Zähneputzen)</li>
+<li>Sensomotorische Regulationsebene (Aufschrecken nach lautem Ton)</li>
+</ul>
+<h2 id="handlungsschritte-nach-d.-norman">7 Handlungsschritte nach D. Norman</h2>
+<ul>
+<li>Gulf of Execution
+<ul>
+<li>Formulieren (Man weiß nicht was Licht ist)</li>
+<li>Planen (Man weiß nicht wie man den Lichtschalter bedient)</li>
+<li>Ausführen (Der Lichtschalter ist nicht erreichbar)</li>
+</ul></li>
+<li>Einwirkung &amp; Reaktion</li>
+<li>Gulf of Evaluation
+<ul>
+<li>Wahrnehmen (Nach dem Kauf keine Bestätigung)</li>
+<li>Intepretieren (Nach dem Kauf wird man auf die Home-Seite geleitet)</li>
+<li>Vergleichen (Auf Zustand “aus” folgt Zustand “500 Kartoffeln”)</li>
+</ul></li>
+</ul>
+<h2 id="goms-modell">GOMS-Modell</h2>
+<ul>
+<li>Goals (Ziel)</li>
+<li>Operation (Operation, mit welcher das Ziel erreicht wird)</li>
+<li>Methods (Benannte Folge von Operationen)</li>
+<li>Selection Rules (Regeln zur Auswahl von Operatoren oder Methoden)</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>t (in s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Keying</td>
+<td>0,2</td>
+</tr>
+<tr class="even">
+<td>Pointing</td>
+<td>1,1</td>
+</tr>
+<tr class="odd">
+<td>Homing</td>
+<td>0,4</td>
+</tr>
+<tr class="even">
+<td>Mentally prepare</td>
+<td>1,35</td>
+</tr>
+<tr class="odd">
+<td>Responding</td>
+<td>n</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grundprinzipien-des-barrierefreien-designs">4 Grundprinzipien des Barrierefreien Designs</h2>
+<p>Das Produkt muss für alle Menschen …</p>
+<p>WBVK:</p>
+<ul>
+<li>Wahrnehmbar sein (Wahrnehmbarkeit; z.B. auch für Blinde)</li>
+<li>Bedienbar sein (Bedienbarkeit; z.B. Navigierbarkeit)</li>
+<li>Verständlich sein (Verständlichkeit; z.B. einfache Sprache)</li>
+<li>Kompatibel sein (Kompabilität; mit allen Hilfsmitteln kompatibel)</li>
+</ul>
+<h2 id="dialogprinzipien">7 Dialogprinzipien</h2>
+<p>ASSELFI:</p>
+<ul>
+<li>Aufgabenangemessenheit (Formular: Nicht nach Hobbies fragen beim Sign-Up)</li>
+<li>Selbstbeschreibungsfähigkeit (Keine FAQ notwendig; sollte “intuitiv” sein)</li>
+<li>Steuerbarkeit (Man muss auch “zurückgehen” können)</li>
+<li>Erwartungskonformität (Signal sollte sich wie WhatsApp etc. bedienen lassen)</li>
+<li>Lernförderlichkeit (Passiv-Lernen beim Bedienen; z.B. Tooltips oder Konzepte lernen)</li>
+<li>Fehlertoleranz (Bluescreen sollte Fehlergrund beinhalten)</li>
+<li>Individualisierbarkeit (Toolbars anordnen)</li>
+</ul>
+<h2 id="methoden-um-usability-zu-maximieren">Methoden, um Usability zu maximieren</h2>
+<ul>
+<li>Empirisch: Tests mit Benutzern</li>
+<li>Analytisch-heuristisch: Standards und Richtlinien</li>
+<li>Deduktiv: Auf der Basis von menschlichen Verhalten</li>
+<li>Unsystematisch: Intuition</li>
+</ul>
+<h2 id="typen-von-touchscreens">Typen von Touchscreens</h2>
+<ul>
+<li>Resistiv (Widerstandsdrähte)</li>
+<li>Kapazitiv (Kapazitätsänderung durch Finger)</li>
+<li>Oberflächenwellen (Finger schwächt Wellen ab)</li>
+<li>Infrarot (auf Entfernung schon Eingabe)</li>
+</ul>
+<h2 id="ziele-der-software-ergonomie">Ziele der Software-Ergonomie</h2>
+<ul>
+<li>Effektivität (Kann erreichen)</li>
+<li>Effizienz (Schnell erreichen)</li>
+<li>Zufriedenheit (Man hat Spaß beim bedienen)</li>
+</ul>
+<h2 id="grundlagen-wissenschaften-der-software-ergonomie">Grundlagen-Wissenschaften der Software-Ergonomie</h2>
+<ul>
+<li>Hardware-Ergonomie</li>
+<li>Arbeitswissenschaft</li>
+<li>Physiologie und Psychologie</li>
+</ul>
+<h2 id="anforderungen-des-anwenders">Anforderungen des Anwenders</h2>
+<p>Erwartete …</p>
+<ul>
+<li>Funktionalität</li>
+<li>Vorkenntnisse</li>
+<li>Lernbereitschaft des Anwenders</li>
+<li>Organisatorische Randbedingungen</li>
+<li>Soziales Gefüge</li>
+</ul>
+<h2 id="grundlagenwissschenschaften-für-usability">Grundlagenwissschenschaften für Usability</h2>
+<ul>
+<li>Arbeitswissenschaften</li>
+<li>Informatik</li>
+<li>Design</li>
+<li>Geistes- und Naturwissenschaften</li>
+<li>Anwender</li>
+</ul>
+<h2 id="richtlinien-zur-barrierefreiheit">Richtlinien zur Barrierefreiheit</h2>
+<ul>
+<li>UN/CRPD (Conventions on the rights of persons with disabilities): Usability ist ein Recht</li>
+<li>EU/WAD (Web Accessibility Directive): Web- und Mobile-Apps von öffentlichen Einrichtungen, Verweis auf HEN 301 549</li>
+<li>EU/EAC (European Accessibility Act): Betriebssysteme, Öffentliche Terminals usw.</li>
+<li>DE/Artikel 3: Niemand darf wg. seiner Behinderung benachteiligt werden</li>
+<li>DE/BGG (Behinderten-Gleichstellungs-Gesetz): Freiwillig; unabhängig von IT</li>
+<li>DE/BITV (Barrierefreie Informationstechnik-Verordnung): WCAG erweitert um DGS und Leichte Sprache für Web-Apps und Mobile-Apps im Inter- und Intranet (AAA/AA)</li>
+</ul>
+<h2 id="act-modell-adaptive-control-of-thought">ACT-Modell (Adaptive Control of Thought)</h2>
+<p>Zahnbürste:</p>
+<ul>
+<li>Knoten: Elektrische Zahbürste</li>
+<li>Kanten: Benutzt man zum …, ist eine …</li>
+<li>Bildsystem und andere Sensorik-Speicher: Zähneputzen, Zahnbürste</li>
+</ul>
+<h2 id="wimp">WIMP</h2>
+<p>GIMP auf GNOME 2:</p>
+<ul>
+<li>Window (Hauptfenster: Canvas, Nichtmodale Dialoge: Werkzeugkasten)</li>
+<li>Icon (Radiergummi)</li>
+<li>Menu (File, Edit-Menu etc.)</li>
+<li>Pointing Device (Wii-Controller)</li>
+</ul>
+<h2 id="codierungsformen">Codierungsformen</h2>
+<ul>
+<li>Symbole Beliebig</li>
+<li>Bildliche Form 10</li>
+<li>Position 9</li>
+<li>Winkel 8</li>
+<li>Farbton 6</li>
+<li>Schriftgröße 3</li>
+</ul>
+<h2 id="möglichkeiten-3d-informationen-darzustellen">Möglichkeiten, 3D-Informationen darzustellen</h2>
+<ul>
+<li>Shutterbrille (aktiv)</li>
+<li>Polarisierte Brille (passiv)</li>
+<li>Farbanaglyphenbild-Brillen (Farbinfos gehen verloren)</li>
+<li>3D-Monitor (Blinkwinkel ist relevant)</li>
+<li>Phantom Device</li>
+<li>CAVE</li>
+</ul>
+<h2 id="mittel-der-realitätserweiterung">Mittel der Realitätserweiterung</h2>
+<ul>
+<li>GUI (Bruch)</li>
+<li>VR (Nur virtuell)</li>
+<li>Ubiquitous Computers (eingebettet)</li>
+<li>AR (Erweitert)</li>
+</ul>
+<h2 id="interaktionssystemtypen">Interaktionssystemtypen</h2>
+<ul>
+<li>Kommandosystem: Effizient für Experten, aber inneffizient für Anfänger</li>
+<li>Menü-Masken-System: Linearer Aufbau, aber für Anfänger einfacher</li>
+<li>Hypermedia-Systeme: Kein starrer Aufbau</li>
+<li>GUI: Ständige Visualisierung &amp; direkte Manipulation, aber für Experten potentiell langsamer</li>
+<li>VR: Komplett immersiv (Vor- und Nachteil), Cyber-Sickness, teuer</li>
+<li>AR: Bezug zur realen Welt ist immer noch da, aber noch ein Device notwendig</li>
+<li>Tangible Media: Echte direkte Manipulation, aber extrem teuer und schwer</li>
+</ul>
+<h2 id="augen-subsysteme">Augen-Subsysteme</h2>
+<ul>
+<li>Stäbchen: Graustufen</li>
+<li>Zapfen: Farben</li>
+<li>Macula: Zapfen in der Mitte</li>
+<li>Fovea: Stäbchen in der Mitte, Ort der größten Sehschärfe</li>
+</ul>
+<h2 id="fitts-law">Fitt’s Law</h2>
+<p>Formel für die Positionierzeit.</p>
+<p><span class="math inline">$t_p = a + b * log_2(\frac{D}{W} + 1)$</span></p>
+<p><span class="math inline"><em>a</em></span>: 50<br />
+<span class="math inline"><em>b</em></span>: 150<br />
+<span class="math inline"><em>D</em></span>: Distanz vom Mauszeiger zur Mitte des Ziels<br />
+<span class="math inline"><em>W</em></span>: Durchmesser des Ziels entlang der Bewegungsrichtung des Mauszeigers</p>
+<h2 id="hicks-law">Hick’s Law</h2>
+<p>Formel für die Auswahlzeit.</p>
+<p><span class="math inline"><em>t</em><sub><em>a</em></sub> = <em>a</em> + <em>b</em> * <em>l</em><em>o</em><em>g</em><sub>2</sub>(<em>n</em>+1)</span></p>
+<p><span class="math inline"><em>a</em></span>: 50<br />
+<span class="math inline"><em>b</em></span>: 150<br />
+<span class="math inline"><em>n</em></span>: Anzahl der Auswahlmöglichkeiten (z.B. Menüpunkte)</p>
+<h2 id="gestentypen">Gestentypen</h2>
+<ul>
+<li>Kopfgesten (Erkennung von Zustimmung im Indischen Raum, Ashish Kapoor)</li>
+<li>Handgesten (Öffnen des Startmenüs der Hololens)</li>
+<li>Fingergesten (Touchscreen)</li>
+<li>3D-Gesten (Wii)</li>
+</ul>
+</body>
+</html>
