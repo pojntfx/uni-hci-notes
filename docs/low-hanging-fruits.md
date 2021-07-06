@@ -1,0 +1,37 @@
+% Uni HCI Low Hanging Fruits
+% Felicitas Pojtinger
+% \today
+\tableofcontents
+
+# Uni HCI Low Hanging Fruits
+
+- Sprache im `lang`-Attribut
+  - Am `<html>`-Tag (3.1.1a Hauptsprache angeben)
+  - Bei Wörtern aus Fremdsprachen (3.1.2a Anderssprachige Wörter)
+- `<title>`-Tag (2.4.2 Sinnvolle Dokumenttitel)
+  - Repräsentiert?
+  - Markenname dabei?
+- Verzicht auf Schriftgrafiken (Logos ausgenommen; 1.4.5a)
+- Fehlende `alt`-Attribute
+  - Für Grafiken und Objekte (1.1.1b)
+  - Für Layoutgrafiken sollten leere `alt`-Attribute verwendet werden (1.1.1c)
+  - Für Bedienelemente (1.1.1a)
+- Animationen nicht abschaltbar (2.2.2a Bewegte Inhalte abschaltbar)
+- Kontrast kleiner 3:1 (1.4.3a Kontraste von Texten ausreichenen)
+- Falsche Hierarchie der `<h*>`-Tags (HTML-Strukturelemente für Überschriften)
+- Verwendung von `<ul>`- und `<li>`-Tags in Menüs (1.3.1b HTML-Strukturelemente für Listen)
+- `<a>`-Tags, welche zu einem Paragraph gehören, sind außerhalb des passenden Paragraphs zu finden
+- `<a>`-Tags nicht spezifisch genug (2.4.4a Aussagekräftige Linktexte)
+- Keine Verwendung von Landmarks (`<nav>`, `<main>`, `<footer>` etc.)
+- Tastaturbedienbarkeit
+- `<label>`-Tags oder `aria-label`-Attribute fehlen bei `<input>`-Tags
+- Inhalte brechen nicht bei 320px um (1.4.10a, Inhalte brechen um)
+- Syntaxfehler sind im HTML-Dokument vorhanden (Check via HTML Validator) (4.1.1a Korrekte Syntax)
+- Videos nicht barrierefrei eingebunden
+  - Audiodeskription
+  - Untertitel
+- Auf 200% vergrößert
+- Ton abschaltbar
+- Alternative Zugangswege (2.4.5a)
+- Inhalte gegliedert (em > i) (1.3.1d)
+- 1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar: Links nicht hervorgehoben
