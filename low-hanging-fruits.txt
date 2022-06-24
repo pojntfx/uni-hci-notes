@@ -1,5 +1,5 @@
 Uni HCI Low Hanging Fruits
-Felix Pojtinger
+Felicitas Pojtinger
 2022-02-01
 
 -   Sprache im lang-Attribut
