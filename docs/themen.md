@@ -1,7 +1,11 @@
-% Uni HCI Themen
-% Felix Pojtinger
-% \today
-\tableofcontents
+---
+author: [Felix Pojtinger]
+date: "2022-02-01"
+subject: "Uni HCI Themen"
+keywords: [hci, human-computer-interaction, ux, a11y, hdm-stuttgart]
+subtitle: "Themen for the Human Computer Interaction (HCI) course at HdM Stuttgart"
+lang: "en"
+---
 
 # Uni HCI Themen
 

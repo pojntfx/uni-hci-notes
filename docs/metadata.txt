@@ -1,6 +1,0 @@
-Uni HCI Notes
-Notes for the Human Computer Interaction course at HdM Stuttgart.
-© 2021 Felix Pojtinger under AGPL-3.0
-https://github.com/pojntfx/uni-hci-notes
-https://github.com/pojntfx/uni-hci-notes/releases/latest/download/all.zip
-📐 Happy engineering!
