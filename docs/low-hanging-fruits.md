@@ -1,5 +1,5 @@
 ---
-author: [Felix Pojtinger]
+author: [Felicitas Pojtinger]
 date: "2022-02-01"
 subject: "Uni HCI Low Hanging Fruits"
 keywords: [hci, human-computer-interaction, ux, a11y, hdm-stuttgart]
