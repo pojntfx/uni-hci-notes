@@ -1,7 +1,11 @@
-% Uni HCI Notes
-% Felicitas Pojtinger
-% \today
-\tableofcontents
+---
+author: [Felicitas Pojtinger]
+date: "2022-02-01"
+subject: "Uni HCI Notes"
+keywords: [hci, human-computer-interaction, ux, a11y, hdm-stuttgart]
+subtitle: "Notes for the Human Computer Interaction (HCI) course at HdM Stuttgart"
+lang: "en"
+---
 
 # Uni HCI Notes
 

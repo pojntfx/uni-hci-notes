@@ -1,0 +1,225 @@
+Uni HCI Themen
+Felicitas Pojtinger
+2022-02-01
+
+-   Einführung
+    -   Definition HCI
+    -   Definition Benutzerschnittstelle
+    -   Definition Usability
+    -   Definition User Experience
+    -   Definition Medien und Medien-Subtypen
+-   Systeme
+    -   Kommandosysteme
+    -   Menü-Masken-Systeme
+    -   Hypermediasysteme
+    -   GUI
+    -   VR
+    -   AR
+    -   Tangible Media
+-   Usability
+    -   Folgen schlechter Usability
+    -   Mensch <-> Mensch vs. Mensch <-> Computer
+-   Hardware-Ergonomie
+    -   Bedürfnisse des Menschen
+    -   Grundlagen-Wissenschaften
+-   Software-Ergonomie
+    -   Ziele der Software-Ergonomie
+    -   Grundlagen-Wissenschaften
+    -   Gründe für fehlerhalfte Software-Ergonomie
+    -   Anforderungen des Anwenders
+    -   Methoden (Empirisch, Analytisch, Deduktiv, Unsystematisch)
+-   Sensorik
+    -   Fern- und Nahsinne
+    -   Tastsinn
+    -   Geruchs- und Geschmackssinn
+    -   Der “6. Sinn”
+-   Rezeptorik
+    -   Rezeptoren (Stäbchen & Zapfen)
+    -   Adaption
+    -   Akkommodation
+    -   Fokus (Macula & Fovea)
+    -   Blinder Fleck
+    -   Gesichtsfeld
+    -   Dynamisches Sehen
+-   Farbsehen
+    -   RGB vs. CMYK
+    -   Sehbehinderungen
+-   Hören
+    -   Altersbedingt
+    -   Richtungshören
+    -   Orientierung
+    -   Unterscheidungsmerkmale
+    -   Störungen
+-   Untertitel
+    -   Subtitles vs. Captions
+    -   Nutzen für Nicht-Behinderte
+    -   Richtlinien
+    -   Farbwahl
+    -   “Regeln”
+    -   Gebärdesprache
+    -   Audiodeskription
+    -   Web-APIs
+-   Ein- und Ausgabegeräte
+    -   Tastatur (Typen, StickyKeys, Scanning etc.)
+    -   Taster
+    -   Spracherkennung
+    -   Handschrifterkennung
+    -   OCR
+-   Zeigen und Gesten
+    -   Maus
+    -   Gyroskopische Maus (kann keine Tiefe)
+    -   Trackball
+    -   Joystick
+    -   Trackpad
+    -   Grafiktablets (Modi, Variation)
+    -   3D-Zeigegerät (Wii-Controller; können auch Tiefe)
+    -   Cyberglove
+    -   Bewegungsverfolgung
+-   Obscure Eingabemöglichkeiten
+    -   Mic
+    -   Cam
+    -   NFC
+    -   Annäherung
+    -   GPS
+    -   Kompass
+    -   Barometer
+    -   Bewegung
+    -   Lichtsensor
+    -   Windsensor
+    -   Plus etc.
+    -   Brain-Computer-Interface
+-   Touchscreen
+    -   Stift- vs Finger-Bedienung
+    -   Typen (Infrarot, Resistiv, Kapazitiv, Oberflächenwellen)
+-   Ausgabegeräte
+    -   Beamer
+    -   HMD (HMD vs. iHMD vs. Retina-Projektor)
+-   Auditive und Taktile Ausgabe
+    -   TTS vs Sampling
+    -   Screen Reader
+-   3D-Ausgabe
+    -   Shutterbrille
+    -   Polarisierende Brille
+    -   Farbanaglyphenbild
+    -   3D-Monitor
+    -   Phantom Device
+    -   Cave
+-   Informationsdarstellung
+    -   Codierungsformen (Wie viele kann man von was darstellen?)
+    -   Farbe
+    -   Sprache
+    -   Ton (Variiert durch Volume, Tone, Direction etc.)
+    -   Earcons
+    -   Haptische Darstellung (Relief, Punkt, Feedback)
+-   WIMP
+    -   Direkte Manipulation
+    -   WIMP = Windows, Icons, Menus, Pointing Device
+    -   Dialoge (Modalität vs Nichtmodalität)
+    -   Menüs (Breit vs Tief, Funktions- vs Ablauforientiert)
+    -   Kontextmenüs
+    -   Pie-Menü
+    -   Auge-Hand-Koordination
+-   Interaktionselemente
+    -   Textfeld
+    -   Picker
+    -   Button
+-   Touch
+    -   Anforderungen
+    -   Rückmeldungen
+-   Sprachsteuerung
+    -   Anwendungsfälle
+    -   Hindernisse
+-   Gestensteuerung
+    -   Definition Geste
+    -   Typen von Gesten
+    -   Anwendungsbereiche
+    -   Hindernisse
+-   Barrierefreiheit
+    -   Definition
+    -   Definition Accessibility
+    -   Abgrenzung zu Usability und Accessibility
+    -   Definition Universal Design
+    -   Definition Behinderung
+    -   Umgang mit Behinderten
+    -   Usability nicht unbedingt von Behinderung abhängig (Power-User
+        in Rollstuhl)
+    -   Business Case: Mit zunehmendem Alter haben fast alle eine
+        Behinderung
+-   Barrierefreies Design
+    -   5 Grundprinzipien
+    -   Wahrnehmbarkeit
+    -   Bedienbarkeit
+    -   Verständlichkeit
+    -   Robustheit, Kompabilität
+-   Richtlinien zur Barrierefreiheit
+    -   UN/CRPD: Convention on the rights of persons with disabilities;
+        als Recht
+    -   EU/WAD: Web Accessibility Directive gilt für öffentliche
+        Einrichtungen
+    -   EU/WAC: Web Accessibility Act gilt für Produkte wie
+        Betriebssysteme und öffentliche Einrichtungen
+    -   DE/BGG: Bundes-Behinderten-Gleichstellungsgesetz, auch Art. 3
+        GG; für öffentliche Stellen
+    -   DE/BITV: Barrierefreie Informationstechnik-Verordnung, deutsches
+        WCAG mit erweiterungen zu DGS
+-   Allgemeines Nutzen der Barrierefreiheit
+    -   Abgeschrägte Bordsteinkante
+    -   Untertitel
+    -   Hörbuch
+    -   Alt-Tags
+    -   Sprachausgabe (iPod Mini)
+-   Usability Engineering
+    -   Argumente warum
+    -   Methoden (Analyse, Konzeption, Entwicklung, Einführung, Betrieb)
+-   Dialogprinzipien (ASSELFI)
+    -   Aufgabenangemessenheit
+    -   Selbstbeschreibungsfähigkeiten
+    -   Steuerbarkeit
+    -   Erwartungskonformität
+    -   Lernförderlichkeit
+    -   Fehlertoleranz
+    -   Individualisierbarkeit
+-   Gedächtnis
+    -   Sensorisches Kurzzeitgedächtnis
+    -   Visuelles Kurzzeitgedächtnis
+    -   Veränderungsblindheit
+    -   Akustisches Kurzzeitgedächtnis
+    -   Kapazität (7+-2 Elemente)
+    -   Langzeitgedächtnis
+    -   ACT (Adaptive Control of Thought; Deklaratives- und
+        Produktionen-Gedächtnis)
+-   Erfahrungstypen
+    -   Definition Erfahrung
+    -   Anfänger (Definition & Lernunterstützung)
+    -   Experte (Definition & Lernunterstützung)
+    -   Lerntypen (Sehen, Hören etc.)
+-   Regulationsebenen
+    -   Intellektuelle Regulationsebene (Definition, Fehlerarten)
+    -   Ebene der flexiblen Handlungsmuster (Definition, Fehlerarten)
+    -   Sensomotorische Regulationsebene (Definition, Fehlerarten)
+-   Handlungsschritte nach Norman
+    -   Formulieren
+    -   Planen
+    -   Ausführen
+    -   Einwirkung und Reaktion
+    -   Vergleichen
+    -   Interpretieren
+    -   Wahrnehmen
+    -   Gulf of Execution
+    -   Gulf of Evaluation
+    -   Folgerungen
+-   Fitt’s Law
+    -   Definition
+    -   Folgerungen
+-   Hick’s Law
+    -   Definition
+    -   Folgerungen
+-   GOMS
+    -   Goals
+    -   Operators
+    -   Methods
+    -   Selection Rules
+    -   Ziele
+    -   Quantifizierung
+    -   Heuristiken
+    -   Folgerung

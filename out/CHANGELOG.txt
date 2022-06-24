@@ -1,0 +1,11 @@
+commit 1092d4b66c4dd4fee273bb4a333e7346376b1549
+Author: Felicitas Pojtinger <felicitas@pojtinger.com>
+Date:   Tue Jul 6 18:45:24 2021 +0000
+
+    feat: Add basic notes from last semester
+
+commit aa4a7be817b4dc8dfacc430a6fee3b9a1cfa22e9
+Author: Felicitas Pojtinger <felicitas@pojtinger.com>
+Date:   Tue Jul 6 20:32:27 2021 +0200
+
+    Initial commit

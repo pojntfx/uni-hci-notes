@@ -1,7 +1,11 @@
-% Uni HCI Low Hanging Fruits
-% Felicitas Pojtinger
-% \today
-\tableofcontents
+---
+author: [Felicitas Pojtinger]
+date: "2022-02-01"
+subject: "Uni HCI Low Hanging Fruits"
+keywords: [hci, human-computer-interaction, ux, a11y, hdm-stuttgart]
+subtitle: "Low Hanging Fruits for the Human Computer Interaction (HCI) course at HdM Stuttgart"
+lang: "en"
+---
 
 # Uni HCI Low Hanging Fruits
 
