@@ -24,7 +24,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
@@ -32,6 +32,9 @@
       body {
         font-size: 0.9em;
         padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
       }
     }
     @media print {
@@ -95,6 +98,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -136,6 +140,12 @@
     #TOC li {
       list-style: none;
     }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
     #TOC a:not(:hover) {
       text-decoration: none;
     }
@@ -146,14 +156,12 @@
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Uni HCI Themen</h1>
-<p class="subtitle">Themen for the Human Computer Interaction (HCI) course at HdM Stuttgart</p>
+<p class="subtitle">Themen for the Human Computer Interaction (HCI)
+course at HdM Stuttgart</p>
 <p class="author">Felicitas Pojtinger</p>
 <p class="date">2022-02-01</p>
 </header>
@@ -344,8 +352,10 @@
 <li>Definition Universal Design</li>
 <li>Definition Behinderung</li>
 <li>Umgang mit Behinderten</li>
-<li>Usability nicht unbedingt von Behinderung abhängig (Power-User in Rollstuhl)</li>
-<li>Business Case: Mit zunehmendem Alter haben fast alle eine Behinderung</li>
+<li>Usability nicht unbedingt von Behinderung abhängig (Power-User in
+Rollstuhl)</li>
+<li>Business Case: Mit zunehmendem Alter haben fast alle eine
+Behinderung</li>
 </ul></li>
 <li>Barrierefreies Design
 <ul>
@@ -357,11 +367,16 @@
 </ul></li>
 <li>Richtlinien zur Barrierefreiheit
 <ul>
-<li>UN/CRPD: Convention on the rights of persons with disabilities; als Recht</li>
-<li>EU/WAD: Web Accessibility Directive gilt für öffentliche Einrichtungen</li>
-<li>EU/WAC: Web Accessibility Act gilt für Produkte wie Betriebssysteme und öffentliche Einrichtungen</li>
-<li>DE/BGG: Bundes-Behinderten-Gleichstellungsgesetz, auch Art. 3 GG; für öffentliche Stellen</li>
-<li>DE/BITV: Barrierefreie Informationstechnik-Verordnung, deutsches WCAG mit erweiterungen zu DGS</li>
+<li>UN/CRPD: Convention on the rights of persons with disabilities; als
+Recht</li>
+<li>EU/WAD: Web Accessibility Directive gilt für öffentliche
+Einrichtungen</li>
+<li>EU/WAC: Web Accessibility Act gilt für Produkte wie Betriebssysteme
+und öffentliche Einrichtungen</li>
+<li>DE/BGG: Bundes-Behinderten-Gleichstellungsgesetz, auch Art. 3 GG;
+für öffentliche Stellen</li>
+<li>DE/BITV: Barrierefreie Informationstechnik-Verordnung, deutsches
+WCAG mit erweiterungen zu DGS</li>
 </ul></li>
 <li>Allgemeines Nutzen der Barrierefreiheit
 <ul>
@@ -374,7 +389,8 @@
 <li>Usability Engineering
 <ul>
 <li>Argumente warum</li>
-<li>Methoden (Analyse, Konzeption, Entwicklung, Einführung, Betrieb)</li>
+<li>Methoden (Analyse, Konzeption, Entwicklung, Einführung,
+Betrieb)</li>
 </ul></li>
 <li>Dialogprinzipien (ASSELFI)
 <ul>
@@ -394,7 +410,8 @@
 <li>Akustisches Kurzzeitgedächtnis</li>
 <li>Kapazität (7+-2 Elemente)</li>
 <li>Langzeitgedächtnis</li>
-<li>ACT (Adaptive Control of Thought; Deklaratives- und Produktionen-Gedächtnis)</li>
+<li>ACT (Adaptive Control of Thought; Deklaratives- und
+Produktionen-Gedächtnis)</li>
 </ul></li>
 <li>Erfahrungstypen
 <ul>

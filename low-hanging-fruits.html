@@ -24,7 +24,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
@@ -32,6 +32,9 @@
       body {
         font-size: 0.9em;
         padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
       }
     }
     @media print {
@@ -95,6 +98,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -136,6 +140,12 @@
     #TOC li {
       list-style: none;
     }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
     #TOC a:not(:hover) {
       text-decoration: none;
     }
@@ -146,14 +156,12 @@
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Uni HCI Low Hanging Fruits</h1>
-<p class="subtitle">Low Hanging Fruits for the Human Computer Interaction (HCI) course at HdM Stuttgart</p>
+<p class="subtitle">Low Hanging Fruits for the Human Computer
+Interaction (HCI) course at HdM Stuttgart</p>
 <p class="author">Felicitas Pojtinger</p>
 <p class="date">2022-02-01</p>
 </header>
@@ -172,20 +180,32 @@
 <li>Fehlende <code>alt</code>-Attribute
 <ul>
 <li>Für Grafiken und Objekte (1.1.1b)</li>
-<li>Für Layoutgrafiken sollten leere <code>alt</code>-Attribute verwendet werden (1.1.1c)</li>
+<li>Für Layoutgrafiken sollten leere <code>alt</code>-Attribute
+verwendet werden (1.1.1c)</li>
 <li>Für Bedienelemente (1.1.1a)</li>
 </ul></li>
-<li>Animationen nicht abschaltbar (2.2.2a Bewegte Inhalte abschaltbar)</li>
+<li>Animationen nicht abschaltbar (2.2.2a Bewegte Inhalte
+abschaltbar)</li>
 <li>Kontrast kleiner 3:1 (1.4.3a Kontraste von Texten ausreichenen)</li>
-<li>Falsche Hierarchie der <code>&lt;h*&gt;</code>-Tags (HTML-Strukturelemente für Überschriften)</li>
-<li>Verwendung von <code>&lt;ul&gt;</code>- und <code>&lt;li&gt;</code>-Tags in Menüs (1.3.1b HTML-Strukturelemente für Listen)</li>
-<li><code>&lt;a&gt;</code>-Tags, welche zu einem Paragraph gehören, sind außerhalb des passenden Paragraphs zu finden</li>
-<li><code>&lt;a&gt;</code>-Tags nicht spezifisch genug (2.4.4a Aussagekräftige Linktexte)</li>
-<li>Keine Verwendung von Landmarks (<code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code> etc.)</li>
+<li>Falsche Hierarchie der <code>&lt;h*&gt;</code>-Tags
+(HTML-Strukturelemente für Überschriften)</li>
+<li>Verwendung von <code>&lt;ul&gt;</code>- und
+<code>&lt;li&gt;</code>-Tags in Menüs (1.3.1b HTML-Strukturelemente für
+Listen)</li>
+<li><code>&lt;a&gt;</code>-Tags, welche zu einem Paragraph gehören, sind
+außerhalb des passenden Paragraphs zu finden</li>
+<li><code>&lt;a&gt;</code>-Tags nicht spezifisch genug (2.4.4a
+Aussagekräftige Linktexte)</li>
+<li>Keine Verwendung von Landmarks (<code>&lt;nav&gt;</code>,
+<code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code> etc.)</li>
 <li>Tastaturbedienbarkeit</li>
-<li><code>&lt;label&gt;</code>-Tags oder <code>aria-label</code>-Attribute fehlen bei <code>&lt;input&gt;</code>-Tags</li>
-<li>Inhalte brechen nicht bei 320px um (1.4.10a, Inhalte brechen um)</li>
-<li>Syntaxfehler sind im HTML-Dokument vorhanden (Check via HTML Validator) (4.1.1a Korrekte Syntax)</li>
+<li><code>&lt;label&gt;</code>-Tags oder
+<code>aria-label</code>-Attribute fehlen bei
+<code>&lt;input&gt;</code>-Tags</li>
+<li>Inhalte brechen nicht bei 320px um (1.4.10a, Inhalte brechen
+um)</li>
+<li>Syntaxfehler sind im HTML-Dokument vorhanden (Check via HTML
+Validator) (4.1.1a Korrekte Syntax)</li>
 <li>Videos nicht barrierefrei eingebunden
 <ul>
 <li>Audiodeskription</li>
@@ -195,7 +215,8 @@
 <li>Ton abschaltbar</li>
 <li>Alternative Zugangswege (2.4.5a)</li>
 <li>Inhalte gegliedert (em &gt; i) (1.3.1d)</li>
-<li>1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar: Links nicht hervorgehoben</li>
+<li>1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar: Links nicht
+hervorgehoben</li>
 </ul>
 </body>
 </html>
