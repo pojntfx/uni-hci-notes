@@ -1,28 +1,22 @@
-commit a2fbc37a20421d81f6c90f6a431667d205eaa334
-Author: Felicitas Pojtinger <felicitas@pojtinger.com>
-Date:   Fri Jun 24 18:54:42 2022 +0200
-
-    chore: Update personal info
-
-commit 7471c5a47fb6153001536c822f242eb08bbd944c
+commit 7bfd9c309458960925e213c813b6d915fa8ca7c6
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:48:33 2022 +0200
 
     fix: Add missing gitignore
 
-commit 29793f6d068d6f410da0ee783b4623fbb951052a
+commit 46bda95bc551edf74841106249a3ac4493f3e5a4
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:44:27 2022 +0200
 
     build: Port to Deliverance
 
-commit 1092d4b66c4dd4fee273bb4a333e7346376b1549
+commit 3998cb4b88181f9553a05e614b7dfe5febf0bdea
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jul 6 18:45:24 2021 +0000
 
     feat: Add basic notes from last semester
 
-commit aa4a7be817b4dc8dfacc430a6fee3b9a1cfa22e9
+commit 8723149b89797fdb7aa3961b2b487597d3a1db82
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jul 6 20:32:27 2021 +0200
 
